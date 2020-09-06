@@ -1,0 +1,37 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eff0eb;
+  min-height: 100vh;
+}
+
+.logo{
+  height: 200px;
+  margin: 15px 0px -10px;
+}
+
+.search_form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_bar{
+  width: 40vw;
+  
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  outline:none;
+
+}
+
+.search_form > button {
+  display: none;
+}
+
+.search_formIcon {
+  margin-right: 15px;
+}

@@ -1,0 +1,30 @@
+.recipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 15px;
+    width: 30vw;
+    
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+
+.recipe > img{
+    border-radius: 20px;
+    width: 75%;
+}
+
+.recipe_calories{
+    color: darkred;
+}
+
+.recipe_ingredients{
+    width: 25vw;
+    overflow-wrap: break-word; 
+}
+
+.recipe_title{
+    text-align: center;
+}
