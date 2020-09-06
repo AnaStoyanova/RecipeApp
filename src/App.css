@@ -4,6 +4,7 @@
   align-items: center;
   background-color: #eff0eb;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .logo{
@@ -26,6 +27,8 @@
   padding: 10px;
   outline:none;
 
+  margin-bottom: 20px;
+
 }
 
 .search_form > button {
@@ -34,6 +37,7 @@
 
 .search_formIcon {
   margin-right: 15px;
+  margin-bottom: 20px;
 }
 
 .recipes{
@@ -42,4 +46,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  margin-left: 20px;
+  margin-right: 20px;
 }
