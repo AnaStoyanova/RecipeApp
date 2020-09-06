@@ -35,3 +35,11 @@
 .search_formIcon {
   margin-right: 15px;
 }
+
+.recipes{
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

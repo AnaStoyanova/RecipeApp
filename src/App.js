@@ -15,8 +15,9 @@ const App = () => {
   
   useEffect(() => {
 
-    if(query !== "")
-    getData()
+    if(query !== ""){
+      getData()
+    }
 
   }, [query])
 
@@ -53,6 +54,8 @@ const App = () => {
         <button type = "submit" onClick={getSearch}/>
         
       </form>
+
+      <div className="recipes">
       {
       recipes.map(recipe =>(
         <Recipe 
@@ -61,6 +64,8 @@ const App = () => {
           title = {recipe.recipe.label}
           ingredients = {recipe.recipe.ingredients}/>
       ))}
+      </div>
+     
     </div>
   )
 }
