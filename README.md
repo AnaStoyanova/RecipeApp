@@ -6,5 +6,5 @@ RecipeApp is a website which provides you with 10 recipes based on a food you ch
 
 The website is built with React.JS and uses Material UI. The project makes use of Edamam's API for getting the recipes. 
 
-<img src="https://drive.google.com/file/d/1S-i-D_OMy9Z0lBwTXPsP8nd4bc9JDF95/view?usp=sharing"  style="height: 640px"/>
+![recipe_app](https://user-images.githubusercontent.com/56298363/92366479-e0f89100-f0fd-11ea-94ca-b80631b58856.png)
   
